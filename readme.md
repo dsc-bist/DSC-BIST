@@ -1,1 +1,0 @@
-# Developer Student Club Bansal Institute of Science and Technology, Bhopal
