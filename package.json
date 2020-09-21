@@ -1,5 +1,5 @@
 {
-  "name": "vibranium",
+  "name": "dsc-bist",
   "version": "1.0.0",
   "description": "Website for DSC SubSaharan Africa",
   "main": "gulpfile.js",
@@ -9,8 +9,7 @@
     "dev": "npx gulp watch"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kelvinkamau/Vibranium.git"
+    "type": "git"
   },
   "keywords": [
     "dsc",
@@ -18,10 +17,6 @@
   ],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kelvinkamau/Vibranium/issues"
-  },
-  "homepage": "https://github.com/kelvinkamau/Vibranium/#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.2.0",
@@ -30,5 +25,8 @@
     "gulp-imagemin": "^6.0.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify-es": "^1.0.4"
+  },
+  "dependencies": {
+    "gulp-gh-pages": "^0.5.4"
   }
 }

@@ -6,6 +6,15 @@ const sourcemaps    = require('gulp-sourcemaps');
 const connect       = require('gulp-connect');
 const htmlmin       = require('gulp-htmlmin');
 const uglify        = require('gulp-uglify-es').default;
+var deploy      = require('gulp-gh-pages');
+
+/**
+ * Push build to gh-pages
+ */
+gulp.task('deploy', function () {
+  return gulp.src("./dist/**/*")
+    .pipe(deploy())
+});
 
 const paths = {
   html: 'src/*.html',
